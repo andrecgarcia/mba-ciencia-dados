@@ -10,10 +10,10 @@ Este repositório contém análises e modelagens de dados meteorológicos e clim
 
 ```
 mba-ciencia-dados/
-├── notebooks/                          # Jupyter Notebooks com análises
+├── notebooks/                          # Notebooks com análises
 │   ├── crhea_analise_completa.ipynb   # Análise completa dos dados da estação CRHEA
-│   ├── crhea_analise_completa_com_temperatura.ipynb  # Análise CRHEA com dados de temperatura
-│   ├── crhea_analise_var.ipynb        # Análise variacional dos dados CRHEA
+│   ├── crhea_analise_completa_com_temperatura.ipynb  # Análise completa dos dados da estação CRHEA com temperatura
+│   ├── crhea_analise_var.ipynb        # Modelagem preditiva com VAR (estação CRHEA)
 │   ├── crhea_modelagem_pycaret.ipynb  # Modelagem preditiva com PyCaret (estação CRHEA)
 │   ├── era5_monte_alegre_analise_completa.ipynb  # Análise ERA5 para Monte Alegre
 │   ├── extracao_dados_era5_netcfd4.ipynb         # Extração de dados ERA5 em formato NetCDF
@@ -23,27 +23,6 @@ mba-ciencia-dados/
 │   └── SRS_SGDHM.pdf                  # Especificação de Requisitos de Software
 └── README.md                           # Este arquivo
 ```
-
-## 📊 Principais Datasets e Estações
-
-### Estação CRHEA
-- **Tipo:** Meteorológica
-- **Localização:** CRHEA
-- **Coordenadas:** 22°01'22"S, 43°57'38"W
-- **Altitude:** 733m
-- **Cobertura do Solo:** Pasto
-- **Período de Dados:** 01/01/1980 a 30/09/2025
-
-### Estação Monte Alegre
-- Análises completas de dados climáticos
-
-### Estação IAB
-- Análises de dados meteorológicos
-
-### Dados ERA5
-- Extração e análise de dados climáticos reanalisisados do ERA5
-- Conversão de formatos NetCDF4
-- Processamento de variáveis como precipitação (tp) e temperatura (t2m)
 
 ## 🔬 Tecnologias Utilizadas
 
@@ -74,7 +53,7 @@ Os notebooks foram desenvolvidos para serem executados no **Google Colab**. Para
 ### Análises Exploratórias
 - **crhea_analise_completa.ipynb** - Análise exploratória completa dos dados CRHEA
 - **crhea_analise_completa_com_temperatura.ipynb** - Análise incluindo variáveis de temperatura
-- **crhea_analise_var.ipynb** - Análise variacional e de tendências
+- **crhea_analise_var.ipynb** - Modelagem preditiva com VAR
 - **monte_alegre_analise_completa.ipynb** - Análise da estação de Monte Alegre
 - **iab_analise_completa.ipynb** - Análise da estação IAB
 
