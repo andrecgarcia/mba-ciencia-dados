@@ -10,18 +10,20 @@ Este repositório contém análises e modelagens de dados meteorológicos e clim
 
 ```
 mba-ciencia-dados/
-├── notebooks/                          # Notebooks com análises
-│   ├── crhea_analise_completa.ipynb   # Análise completa dos dados da estação CRHEA
+├── notebooks/                                        # Notebooks com análises
+│   ├── crhea_analise_completa.ipynb                  # Análise completa dos dados da estação CRHEA
 │   ├── crhea_analise_completa_com_temperatura.ipynb  # Análise completa dos dados da estação CRHEA com temperatura
-│   ├── crhea_analise_var.ipynb        # Modelagem preditiva com VAR (estação CRHEA)
-│   ├── crhea_modelagem_pycaret.ipynb  # Modelagem preditiva com PyCaret (estação CRHEA)
-│   ├── era5_monte_alegre_analise_completa.ipynb  # Análise ERA5 para Monte Alegre
-│   ├── extracao_dados_era5_netcfd4.ipynb         # Extração de dados ERA5 em formato NetCDF
-│   ├── iab_analise_completa.ipynb     # Análise completa da estação IAB
-│   └── monte_alegre_analise_completa.ipynb       # Análise completa da estação Monte Alegre
-├── sgdhm/                              # Documentação do projeto
-│   └── SRS_SGDHM.pdf                  # Especificação de Requisitos de Software
-└── README.md                           # Este arquivo
+│   ├── crhea_analise_var.ipynb                       # Modelagem preditiva com VAR (estação CRHEA)
+│   ├── crhea_modelagem_pycaret.ipynb                 # Modelagem preditiva com PyCaret (estação CRHEA)
+│   ├── era5_monte_alegre_analise_completa.ipynb      # Análise ERA5 para Monte Alegre
+│   ├── extracao_dados_era5_netcfd4.ipynb             # Extração de dados ERA5 em formato NetCDF
+│   ├── iab_analise_completa.ipynb                    # Análise completa da estação IAB
+│   └── monte_alegre_analise_completa.ipynb           # Análise completa da estação Monte Alegre
+├── sgdhm/                                            # Documentação do projeto
+│   └── SRS_SGDHM.pdf                                 # Especificação de Requisitos de Software
+├── README.md                                         # Este arquivo
+└── TCC_MBA_2025_AndreCanaliGarcia.pdf                # TCC do MBA em Ciência de Dados
+
 ```
 
 ## 🔬 Tecnologias Utilizadas
